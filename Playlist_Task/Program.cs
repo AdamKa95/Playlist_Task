@@ -7,7 +7,7 @@ namespace Playlist_Task
         static void Main(string[] args)
         {
             Playlist testPlaylist = new Playlist(100);             
-            testPlaylist.Play_Playlist();
+            testPlaylist.PlayPlaylist();
         }
     }
 }

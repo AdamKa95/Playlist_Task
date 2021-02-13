@@ -5,29 +5,29 @@ namespace Playlist_Task
 {
     class Playlist
     {
-        List<Track> listOfTracks = new List<Track>(); //Create list of tracks
-        private int sizeOfPlaylist;
+        List<Track> ListOfTracks { get; set; } //Create list of tracks
+        private int SizeOfPlaylist { get; set; }
 
-        public Playlist(int size) //Constructor
+        public Playlist(int size) 
         {
-            sizeOfPlaylist = size;
+            ListOfTracks = new List<Track>();
+            SizeOfPlaylist = size;
             for (int i = 0; i < size; i++)
             {
-                listOfTracks.Add(new Track(i)); //ID of track is start index in listOfTracks
+                ListOfTracks.Add(new Track(i)); //ID of track is start index in listOfTracks
             }
         }
 
-        public void Play_Playlist() 
+        public void PlayPlaylist() 
         {
             Console.WriteLine("Starting playlist.");
-            int maxRandomNumber = sizeOfPlaylist; //maxRandomNumber cannot be larget than sizeOfPlaylist
-            int randomNumber;
+            int maxRandomNumber = SizeOfPlaylist; //maxRandomNumber cannot be larget than sizeOfPlaylist            
             Random random = new Random();
-            while (listOfTracks.Count > 0)
+            while (ListOfTracks.Count > 0)
             {
-                randomNumber = random.Next(maxRandomNumber); //generating random number that is smaller than sizeOfPlaylist
-                listOfTracks[randomNumber].PlayTrack();                 
-                listOfTracks.RemoveAt(randomNumber); //removing track after playing it
+                int randomNumber = random.Next(maxRandomNumber); //generating random number that is smaller than sizeOfPlaylist
+                ListOfTracks[randomNumber].PlayTrack();                 
+                ListOfTracks.RemoveAt(randomNumber); //removing track after playing it
                 maxRandomNumber--; //decreasing maxRandomNumber so it isn't larger than current sizeOfPlaylist
             }
             Console.WriteLine("End of playlist.");

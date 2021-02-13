@@ -4,16 +4,16 @@ namespace Playlist_Task
 {
     class Track
     {
-        private int trackID; 
+        private int TrackID { get; set; }
         
-        public Track(int x) //Constructor        
+        public Track(int x)       
         {            
-            trackID = x;
+            TrackID = x;
         }
 
         public void PlayTrack() //Basic void function to visualize work flow of program
         {
-            Console.WriteLine("Playing track " + trackID +"."); 
+            Console.WriteLine("Playing track " + TrackID +"."); 
         }        
     }
 }
