@@ -1,0 +1,13 @@
+C:\Users\Adaś\Documents\Visual Studio 2019\Projects\Playlist_Task\Playlist_Task\bin\Debug\netcoreapp3.1\Playlist_Task.exe
+C:\Users\Adaś\Documents\Visual Studio 2019\Projects\Playlist_Task\Playlist_Task\bin\Debug\netcoreapp3.1\Playlist_Task.deps.json
+C:\Users\Adaś\Documents\Visual Studio 2019\Projects\Playlist_Task\Playlist_Task\bin\Debug\netcoreapp3.1\Playlist_Task.runtimeconfig.json
+C:\Users\Adaś\Documents\Visual Studio 2019\Projects\Playlist_Task\Playlist_Task\bin\Debug\netcoreapp3.1\Playlist_Task.runtimeconfig.dev.json
+C:\Users\Adaś\Documents\Visual Studio 2019\Projects\Playlist_Task\Playlist_Task\bin\Debug\netcoreapp3.1\Playlist_Task.dll
+C:\Users\Adaś\Documents\Visual Studio 2019\Projects\Playlist_Task\Playlist_Task\bin\Debug\netcoreapp3.1\Playlist_Task.pdb
+C:\Users\Adaś\Documents\Visual Studio 2019\Projects\Playlist_Task\Playlist_Task\obj\Debug\netcoreapp3.1\Playlist_Task.csprojAssemblyReference.cache
+C:\Users\Adaś\Documents\Visual Studio 2019\Projects\Playlist_Task\Playlist_Task\obj\Debug\netcoreapp3.1\Playlist_Task.AssemblyInfoInputs.cache
+C:\Users\Adaś\Documents\Visual Studio 2019\Projects\Playlist_Task\Playlist_Task\obj\Debug\netcoreapp3.1\Playlist_Task.AssemblyInfo.cs
+C:\Users\Adaś\Documents\Visual Studio 2019\Projects\Playlist_Task\Playlist_Task\obj\Debug\netcoreapp3.1\Playlist_Task.csproj.CoreCompileInputs.cache
+C:\Users\Adaś\Documents\Visual Studio 2019\Projects\Playlist_Task\Playlist_Task\obj\Debug\netcoreapp3.1\Playlist_Task.dll
+C:\Users\Adaś\Documents\Visual Studio 2019\Projects\Playlist_Task\Playlist_Task\obj\Debug\netcoreapp3.1\Playlist_Task.pdb
+C:\Users\Adaś\Documents\Visual Studio 2019\Projects\Playlist_Task\Playlist_Task\obj\Debug\netcoreapp3.1\Playlist_Task.genruntimeconfig.cache
